@@ -1,72 +1,98 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 html {
     background: linear-gradient(180deg, #E5EEED 0%, #14BCE0 100%);
     width: 100vw;
     height: 100vh;
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
+
 header {
     display: flex;
     justify-content: center;
     padding: 20px;
     margin: 20px;
 }
+
 .logo {
-    display: flex;
-    align-items: center;
-    
-    width: 20rem;
+    height: 22rem;
 
 }
 
 .rodape {
-    
+
     width: 10rem;
     align-items: flex-end;
 }
-.opcoes {
-   
-}
+
+.opcoes {}
 
 footer {
     display: flex;
-    justify-content: space-between;
-    font-size: 35px;
+    justify-content: center;
     background-color: transparent;
     bottom: 0;
     position: fixed;
     width: 100%;
     height: 9rem;
     
+
 }
 
 .opcoes-nomes {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15px 0 15px 0;
-    font-size: 30px;
+    padding: 3rem;
     
-}
-.opcoes-nomes a {
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    text-decoration: none;
-    border-radius: 1rem;
-    margin-bottom: 30px;
-    background-color: darkblue;
-    color: white;
+
 }
 
-#mpc,#nid {
+.opcoes-nomes a {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+    transition-property: color, text-shadow;
+    transition-duration: .3s;
+    transition-timing-function: linear;
+    text-shadow: 0px 0px 3px rgba(255, 255, 255, 30%);
+}
+
+.opcoes-nomes a:hover {
+    color: #1F336A;
+    text-shadow: 0px 0px 3px rgba(31, 51, 106, 90%);
+    transform: scale(1.5)
+}
+
+#mpc, #nid {
     border-radius: 50%;
-    width: 8rem;
-    height: 8rem;
+    width: 66px;
+    height: 66px;
     position: relative;
     top: 0.5rem;
+    padding: 1rem;
+
+    
+
+}
+
+
+.instagram img {
+    height: 80px;
+    width: 80px;
+    margin-top: 1rem;
+
+
+}
+
+.face img {
+    height: 80px;
+    width: 80px;
+    margin-top: 1rem;
+    margin-left: .8rem;
 
 }
